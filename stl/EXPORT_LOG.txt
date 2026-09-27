@@ -1,0 +1,22 @@
+=== export 2026-09-26T16:55:42Z  pipe_cross_clamp v1.4
+openscad: OpenSCAD version 2021.01
+ok    body_bolts  pipe_cross_clamp_body_bolts_v1.4.stl  [part="body" closure="bolts"]
+ok    cap1  pipe_cross_clamp_cap1_v1.4.stl  [part="cap1" closure="bolts"]
+ok    cap2  pipe_cross_clamp_cap2_v1.4.stl  [part="cap2" closure="bolts"]
+ok    body_zipties  pipe_cross_clamp_body_zipties_v1.4.stl  [part="body" closure="zipties"]
+ok    gauge_1  pipe_cross_clamp_gauge_1_v1.4.stl  [part="gauge"]
+ok    gauge_2  pipe_cross_clamp_gauge_2_v1.4.stl  [part="gauge"]
+ok    plate_bolts  pipe_cross_clamp_plate_bolts_v1.4.stl  [part="all" closure="bolts"]
+ok    plate_bolts_gauges  pipe_cross_clamp_plate_bolts_gauges_v1.4.stl  [part="all_checks" closure="bolts"]
+ok    plate_zipties_gauges  pipe_cross_clamp_plate_zipties_gauges_v1.4.stl  [part="all_checks" closure="zipties"]
+=== done, exit 0
+"COUPON plate 59.2 x 47.6 x 4 mm"
+"row 1 step 1: clearance 0.3 per side"
+"row 1 step 2: clearance 0.5 per side"
+"row 1 step 3: clearance 0.7 per side"
+"row 1 step 4: clearance 0.9 per side"
+"row 2 step A: clearance 0.2 on the diameter/width"
+"row 2 step B: clearance 0.4 on the diameter/width"
+"row 2 step C: clearance 0.6 on the diameter/width"
+"row 2 step D: clearance 0.8 on the diameter/width"
+ok    coupon  pipe_cross_clamp_coupon_v1.4.stl  [pipe_cross_clamp_coupon.scad defaults]

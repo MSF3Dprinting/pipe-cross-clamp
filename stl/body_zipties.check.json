@@ -1,0 +1,81 @@
+[
+  {
+    "file": "/home/claude/pipe_cross_clamp/stl/pipe_cross_clamp_body_zipties_v1.4.stl",
+    "fail": [],
+    "warn": [
+      "section at Z = 1.0: 2 separate pieces \u2014 expected if the part has several legs or walls here, a defect if the zone should be one piece",
+      "section at Z = 8.0: 2 separate pieces \u2014 expected if the part has several legs or walls here, a defect if the zone should be one piece",
+      "section at Z = 16.0: 2 separate pieces \u2014 expected if the part has several legs or walls here, a defect if the zone should be one piece"
+    ],
+    "triangles": 3600,
+    "size": [
+      48.0,
+      54.2,
+      61.53
+    ],
+    "min_z": 0.0,
+    "watertight": true,
+    "winding_consistent": true,
+    "volume": 65833.44,
+    "bodies": 1,
+    "bed_contact_area": 371.3,
+    "footprint_area": 2305.1,
+    "bed_contact_pct": 16.1,
+    "worst_overhang_deg": 45.0,
+    "worst_overhang_at": [
+      -11.7,
+      -23.5,
+      0.3
+    ],
+    "overhang_facets_over_limit": 0,
+    "overhang_area_over_limit": 0.0,
+    "bridges": [],
+    "sections": [
+      {
+        "z": 1.0,
+        "pieces": 2,
+        "area": 470.43,
+        "min_wall": 1.85,
+        "min_wall_at": [
+          -15.0,
+          21.73
+        ],
+        "wall_ok": true
+      },
+      {
+        "z": 8.0,
+        "pieces": 2,
+        "area": 702.78,
+        "min_wall": 1.85,
+        "min_wall_at": [
+          -15.0,
+          21.88
+        ],
+        "wall_ok": true
+      },
+      {
+        "z": 16.0,
+        "pieces": 2,
+        "area": 1182.78,
+        "min_wall": 1.85,
+        "min_wall_at": [
+          -15.0,
+          21.92
+        ],
+        "wall_ok": true
+      },
+      {
+        "z": 24.0,
+        "pieces": 1,
+        "area": 1012.71,
+        "min_wall": 1.85,
+        "min_wall_at": [
+          -15.03,
+          18.88
+        ],
+        "wall_ok": true
+      }
+    ],
+    "ok": true
+  }
+]

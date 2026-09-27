@@ -1,0 +1,65 @@
+[
+  {
+    "file": "/home/claude/pipe_cross_clamp/stl/pipe_cross_clamp_gauge_1_v1.4.stl",
+    "fail": [],
+    "warn": [],
+    "triangles": 4624,
+    "size": [
+      70.0,
+      42.31,
+      4.0
+    ],
+    "min_z": 0.0,
+    "watertight": true,
+    "winding_consistent": true,
+    "volume": 8921.79,
+    "bodies": 1,
+    "bed_contact_area": 2160.6,
+    "footprint_area": 2947.6,
+    "bed_contact_pct": 73.3,
+    "worst_overhang_deg": 45.0,
+    "worst_overhang_at": [
+      7.7,
+      33.6,
+      0.3
+    ],
+    "overhang_facets_over_limit": 0,
+    "overhang_area_over_limit": 0.0,
+    "bridges": [],
+    "sections": [
+      {
+        "z": 1.0,
+        "pieces": 1,
+        "area": 2263.71,
+        "min_wall": 15.15,
+        "min_wall_at": [
+          -17.01,
+          -21.07
+        ],
+        "wall_ok": true
+      },
+      {
+        "z": 8.0,
+        "pieces": 0,
+        "area": 0.0,
+        "min_wall": null,
+        "note": "no material at this height"
+      },
+      {
+        "z": 16.0,
+        "pieces": 0,
+        "area": 0.0,
+        "min_wall": null,
+        "note": "no material at this height"
+      },
+      {
+        "z": 24.0,
+        "pieces": 0,
+        "area": 0.0,
+        "min_wall": null,
+        "note": "no material at this height"
+      }
+    ],
+    "ok": true
+  }
+]

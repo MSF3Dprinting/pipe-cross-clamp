@@ -1,0 +1,11 @@
+# variants.txt — one line per exported variant:   <n> | <-D overrides, space separated, strings in double quotes>
+# pipe_cross_clamp v1.4 — defaults: pipe1_d 32, pipe2_d 25 (UNVERIFIED), angle 90
+body_bolts          | part="body" closure="bolts"
+cap1                | part="cap1" closure="bolts"
+cap2                | part="cap2" closure="bolts"
+body_zipties        | part="body" closure="zipties"
+gauge_1             | part="gauge"
+gauge_2             | part="gauge"
+plate_bolts         | part="all" closure="bolts"
+plate_bolts_gauges  | part="all_checks" closure="bolts"
+plate_zipties_gauges| part="all_checks" closure="zipties"

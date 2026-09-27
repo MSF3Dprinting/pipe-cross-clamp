@@ -1,0 +1,39 @@
+sweep report — pipe_cross_clamp.scad v1.3 — all-parts print plates — 2026-09-26
+OpenSCAD 2021.01; check_stl.py on every PASS case with the plate's own limits (CHECK expect_bodies / max_size).
+Run in two passes on the same file version (the first was cut by a tool time limit after 18 cases).
+TOTAL 34 of 34 cases: PASS 33  GUARD 1  FAIL 0
+
+PASS   all_bolts_10x10_a0   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_bolts_10x10_a90   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_bolts_32x25_a0   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_bolts_32x25_a90   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_bolts_60x10_a0   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_bolts_60x10_a90   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_bolts_60x60_a0   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_bolts_60x60_a90   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_zipties_10x10_a0   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_zipties_10x10_a90   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_zipties_32x25_a0   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_zipties_32x25_a90   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_zipties_60x10_a0   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_zipties_60x10_a90   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_zipties_60x60_a0   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_zipties_60x60_a90   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_checks_bolts_10x10_a0   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_checks_bolts_10x10_a90   (first pass; output recorded in the conversation, run cut by a tool time limit)
+PASS   all_checks_bolts_32x25_a0                  67.6s  check_stl warn: section at Z = 2.0: 8 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 6 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_bolts_32x25_a90                 76.3s  check_stl warn: section at Z = 2.0: 8 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 6 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_bolts_60x10_a0                  70.7s  check_stl warn: section at Z = 2.0: 8 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 4 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_bolts_60x10_a90                 62.6s  check_stl warn: section at Z = 2.0: 8 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 4 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_bolts_60x60_a0                  69.5s  check_stl warn: section at Z = 2.0: 8 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 6 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+GUARD  all_checks_bolts_60x60_a90                  0.1s  ERROR: Assertion '(!is_plate || ((plate_w <= (use_w + 0.001)) && (plate_h <= (use_h + 0.001))))' failed: "the parts do not fit on one print plate (250 x 210 mm bed) - choose the parts one by one" in file pipe_cross_clamp.scad, line 226
+PASS   all_checks_zipties_10x10_a0                18.2s  check_stl warn: section at Z = 2.0: 4 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_zipties_10x10_a90               21.0s  check_stl warn: section at Z = 2.0: 4 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_zipties_32x25_a0                32.8s  check_stl warn: section at Z = 2.0: 4 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 2 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_zipties_32x25_a90               33.1s  check_stl warn: section at Z = 2.0: 4 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 2 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_zipties_60x10_a0                27.1s  check_stl warn: section at Z = 2.0: 4 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 2 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_zipties_60x10_a90               19.9s  check_stl warn: section at Z = 2.0: 4 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 2 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_zipties_60x60_a0                16.7s  check_stl warn: section at Z = 2.0: 4 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 2 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_zipties_60x60_a90               18.1s  check_stl warn: section at Z = 2.0: 4 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 2 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_bolts_gap3                      36.9s  check_stl warn: section at Z = 2.0: 8 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 6 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece
+PASS   all_checks_bolts_gap20                     37.3s  check_stl warn: section at Z = 2.0: 8 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece; section at Z = 10.0: 6 separate pieces — expected if the part has several legs or walls here, a defect if the zone should be one piece

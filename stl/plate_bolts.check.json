@@ -1,0 +1,82 @@
+[
+  {
+    "file": "/home/claude/pipe_cross_clamp/stl/pipe_cross_clamp_plate_bolts_v1.4.stl",
+    "fail": [],
+    "warn": [
+      "section at Z = 1.0: 6 separate pieces \u2014 expected if the part has several legs or walls here, a defect if the zone should be one piece",
+      "section at Z = 8.0: 6 separate pieces \u2014 expected if the part has several legs or walls here, a defect if the zone should be one piece",
+      "section at Z = 16.0: 6 separate pieces \u2014 expected if the part has several legs or walls here, a defect if the zone should be one piece",
+      "section at Z = 24.0: 3 separate pieces \u2014 expected if the part has several legs or walls here, a defect if the zone should be one piece"
+    ],
+    "triangles": 16584,
+    "size": [
+      206.06,
+      75.45,
+      37.63
+    ],
+    "min_z": 0.0,
+    "watertight": true,
+    "winding_consistent": true,
+    "volume": 263739.29,
+    "bodies": 3,
+    "bed_contact_area": 5509.2,
+    "footprint_area": 14253.5,
+    "bed_contact_pct": 38.7,
+    "worst_overhang_deg": 45.0,
+    "worst_overhang_at": [
+      -85.1,
+      -0.6,
+      15.5
+    ],
+    "overhang_facets_over_limit": 0,
+    "overhang_area_over_limit": 0.0,
+    "bridges": [],
+    "sections": [
+      {
+        "z": 1.0,
+        "pieces": 6,
+        "area": 5977.87,
+        "min_wall": 3.35,
+        "min_wall_at": [
+          48.69,
+          10.72
+        ],
+        "wall_ok": true
+      },
+      {
+        "z": 8.0,
+        "pieces": 6,
+        "area": 6534.2,
+        "min_wall": 2.55,
+        "min_wall_at": [
+          6.05,
+          17.5
+        ],
+        "wall_ok": true
+      },
+      {
+        "z": 16.0,
+        "pieces": 6,
+        "area": 9575.21,
+        "min_wall": 3.45,
+        "min_wall_at": [
+          -20.97,
+          25.84
+        ],
+        "wall_ok": true
+      },
+      {
+        "z": 24.0,
+        "pieces": 3,
+        "area": 10832.67,
+        "min_wall": 3.45,
+        "min_wall_at": [
+          -20.58,
+          25.33
+        ],
+        "wall_ok": true
+      }
+    ],
+    "ok": true
+  }
+]
