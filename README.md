@@ -1,4 +1,4 @@
-# Pipe cross clamp, fixed angle — v1.4
+# Pipe cross clamp, fixed angle — v1.5
 
 Joins two pipes of **different sizes** that cross at a **fixed angle** (0–90°). It fits onto pipes that are already in place. For **non-clinical use only**, with loads up to 2 kg. Full details are in [DATASHEET.md](DATASHEET.md).
 
@@ -51,11 +51,11 @@ Check at **2 weeks, 1 month and 3 months**, then every 3 months. Look at bolt ti
 ## Files
 | File | What it is |
 |---|---|
-| `stl/…body_bolts_v1.4.stl`, `…cap1…`, `…cap2…` | bolts version (3 parts) |
-| `stl/…body_zipties_v1.4.stl` | zip-tie version |
-| `stl/…plate_bolts_v1.4.stl` | bolts version, all 3 parts on one plate |
-| `stl/…plate_bolts_gauges_v1.4.stl`, `…plate_zipties_gauges…` | all clamp parts + 2 gauges on one plate |
-| `stl/…gauge_1_v1.4.stl`, `…gauge_2…`, `…coupon_v1.4.stl` | fit checks — print these first |
+| `stl/…body_bolts_v1.5.stl`, `…cap1…`, `…cap2…` | bolts version (3 parts) |
+| `stl/…body_zipties_v1.5.stl` | zip-tie version |
+| `stl/…plate_bolts_v1.5.stl` | bolts version, all 3 parts on one plate |
+| `stl/…plate_bolts_gauges_v1.5.stl`, `…plate_zipties_gauges…` | all clamp parts + 2 gauges on one plate |
+| `stl/…gauge_1_v1.5.stl`, `…gauge_2…`, `…coupon_v1.5.stl` | fit checks — print these first |
 | `pipe_cross_clamp.scad` / `pipe_cross_clamp_customizer.scad` | editable model / one-file version |
 | `DATASHEET.md` | full technical record, tests, risks, approvals |
 | `STATUS.md` | where the project stands |

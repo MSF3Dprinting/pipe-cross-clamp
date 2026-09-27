@@ -1,8 +1,14 @@
+// @name: Pipe cross clamp, fixed angle
+// @description: Joins two pipes of different outside diameters (10-60 mm) crossing at a fixed angle (0-90 deg), fitted onto pipes already in place; 4 M6 through-bolts or 4 zip ties; non-clinical use, loads up to 2 kg.
+// @category: Logistics
+// @credit: MSF 3D Printing for All (Medecins Sans Frontieres), designed with Claude and the msf-3dp-design skill
+// @license: CC BY-SA 4.0
+
 /* ===== DESIGN SUMMARY =====
  * Part / purpose:    Pipe cross clamp, fixed angle. Joins two pipes of different outside diameters that
  *                    cross at a fixed angle (0-90 deg, set in the Customizer). Fits onto pipes already in place.
  *                    Generic, non-clinical tool (logistics, workshops, non-clinical hospital areas, training).
- * Version:           1.4 2026-09-26   Designer: MSF 3D Printing for All
+ * Version:           1.5 2026-09-26   Designer: MSF 3D Printing for All
  * One-file version:  this file - generated from pipe_cross_clamp.scad by tools/make_customizer.py; do not edit by hand
  * Critical part:     no (non-clinical, <= 2 kg positioning load). Any use in a patient area, above a patient
  *                    or carrying a device -> critical item, new scope check and Biomed + IPC approval.

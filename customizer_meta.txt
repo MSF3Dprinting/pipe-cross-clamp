@@ -1,0 +1,5 @@
+// @name: Pipe cross clamp, fixed angle
+// @description: Joins two pipes of different outside diameters (10-60 mm) crossing at a fixed angle (0-90 deg), fitted onto pipes already in place; 4 M6 through-bolts or 4 zip ties; non-clinical use, loads up to 2 kg.
+// @category: Logistics
+// @credit: MSF 3D Printing for All (Medecins Sans Frontieres), designed with Claude and the msf-3dp-design skill
+// @license: CC BY-SA 4.0

@@ -1,6 +1,6 @@
 # STATUS — Pipe cross clamp, fixed angle   (one page; update at the end of every conversation)
 
-**Version:** 1.4 · **Stage:** 6 of 9 (delivered, fits not confirmed) · **Next step:** measure both pipes, then print the coupon and two gauges; reply with the coupon code and the gauge gap.
+**Version:** 1.5 · **Stage:** 6 of 9 (delivered, fits not confirmed) · **Next step:** measure both pipes, then print the coupon and two gauges; reply with the coupon code and the gauge gap.
 
 ## Stages
 | Stage | Status | Date | Note |
@@ -10,8 +10,9 @@
 | 2 Design brief v0.1 | done | 2026-09-26 | "yes proceed" |
 | 3 Design plan | done | 2026-09-26 | written alongside the model (§2.1) |
 | 4 Model + coupon + gauge | done | 2026-09-26 | bolts and zip-tie variants, caps, gauge |
-| 5 Verification | done | 2026-09-26 | v1.4: 154-case sweep 151 PASS / 3 GUARD / 0 FAIL; all 13 STLs Manifold-valid; T15 slicer not run |
+| 5 Verification | done | 2026-09-26 | v1.4: 154-case sweep 151 PASS / 3 GUARD / 0 FAIL; all 10 STLs Manifold-valid; T15 slicer not run |
 | 6 Delivery | done | 2026-09-26 | pipe_cross_clamp_v1.0.zip |
+| 6f Customizer header | done | 2026-09-26 | v1.5: @name / @description / @category / @credit / @license header in the one-file version; meshes identical to 1.4 |
 | 6e Stronger caps | done | 2026-09-26 | v1.4: 4 through-bolts (2 per side of each pipe), solid convex caps (no wings), counterbores + captive-nut wells, 10 mm over the apex; requester review: old caps too weak, wobbly, would delaminate |
 | 6d All-parts plate | done | 2026-09-26 | v1.3: "all" plate options, numbered gauges, plate STLs; part meshes identical to 1.2 |
 | 6c Customizer usability | done | 2026-09-26 | v1.2: lists for choices, sliders for numbers; meshes identical to 1.1 |
@@ -73,6 +74,8 @@
 - **Requester preference:** the part list always offers "all printable parts" as one option.
 
 - **Lesson (for references/lessons.md):** check the section over a clamp's V apex, not only the flange root; never put bolt load into a thin wing that joins a taller block with an inside corner — layers peel there; never clamp with two diagonal bolts — use two per side so no line of bolts exists to rock about; section-check the top face of every well where two chamfers meet.
+
+- **Customizer metadata header (requester rule):** the one-file Customizer version must start with `// @name:`, `// @description:`, `// @category:`, `// @credit:`, `// @license:` — in that order, one line each. Not in the skill yet. **Conflict to resolve:** the Project instructions say generated documents carry no licence statements; the requester's pattern requires `@license`. Used `CC BY-SA 4.0` from the requester's pattern; the part file, README and DATASHEET still carry no licence text.
 
 ## Warnings and decisions on record
 - No §4.1 category. Generic, non-clinical tool approved by the 3D Printing Advisor (owner) as requester.

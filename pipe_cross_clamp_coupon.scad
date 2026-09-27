@@ -1,4 +1,4 @@
-// pipe_cross_clamp_coupon.scad — fit coupon for the pipe cross clamp v1.4 (copy of the skill's test_coupon.scad
+// pipe_cross_clamp_coupon.scad — fit coupon for the pipe cross clamp v1.5 (copy of the skill's test_coupon.scad
 // with these defaults). Row 1 (steps 1-4): zip-tie slot 1.6 x 6.0 mm (tie_t x tie_w) at tie_clear 0.3 / 0.5 / 0.7 / 0.9
 // per side. Row 2 (steps A-D): M6 bolt hole at bolt_clear 0.2 / 0.4 / 0.6 / 0.8 on the diameter.
 // Reply "3B" = tie step 3 (tie_clear 0.7), bolt step B (bolt_clear 0.4). Change tie / bolt sizes here if yours differ.

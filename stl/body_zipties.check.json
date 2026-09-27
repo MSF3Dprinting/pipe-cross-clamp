@@ -1,6 +1,6 @@
 [
   {
-    "file": "/home/claude/pipe_cross_clamp/stl/pipe_cross_clamp_body_zipties_v1.4.stl",
+    "file": "/home/claude/pipe_cross_clamp/stl/pipe_cross_clamp_body_zipties_v1.5.stl",
     "fail": [],
     "warn": [
       "section at Z = 1.0: 2 separate pieces \u2014 expected if the part has several legs or walls here, a defect if the zone should be one piece",

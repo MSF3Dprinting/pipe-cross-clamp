@@ -2,7 +2,7 @@
  * Part / purpose:    Pipe cross clamp, fixed angle. Joins two pipes of different outside diameters that
  *                    cross at a fixed angle (0-90 deg, set in the Customizer). Fits onto pipes already in place.
  *                    Generic, non-clinical tool (logistics, workshops, non-clinical hospital areas, training).
- * Version:           1.4 2026-09-26   Designer: MSF 3D Printing for All
+ * Version:           1.5 2026-09-26   Designer: MSF 3D Printing for All
  * One-file version:  pipe_cross_clamp_customizer.scad (same geometry, no includes - for online Customizers)
  * Critical part:     no (non-clinical, <= 2 kg positioning load). Any use in a patient area, above a patient
  *                    or carrying a device -> critical item, new scope check and Biomed + IPC approval.
